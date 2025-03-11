@@ -8,8 +8,6 @@ interface LaunchTabProps {
 
 const LaunchTab = ({ activeTab, setActiveTab }: LaunchTabProps) => {
 
-    const activeTabData = launch.find((tab) => tab.id === activeTab)
-
     return (
         <div className=' px-16 max-w-7xl mx-auto   mt-12'>
             <div className=' text-start'>
