@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
+import { Inter } from "next/font/google";
+import { Covered_By_Your_Grace } from "next/font/google";
+import Header from "@/components/Header";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const covered = Covered_By_Your_Grace({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-covered",
 });
 
 export const metadata: Metadata = {
@@ -26,8 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className={`${inter.variable}  ${covered.variable}`}>
+        <div className="grid mx-auto w-full px-4 py-4 font-sans md:px-8 md:py-20 lg:px-16 lg:py-3">
+          <Header />
+        </div>
         {children}
       </body>
     </html>
