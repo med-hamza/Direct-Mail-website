@@ -7,7 +7,7 @@ const Cards = () => {
         <div className=' w-full bg-[#FDF3EA]'>
             <div className=' px-16 max-w-7xl mx-auto pb-16'>
                 <h1 className='text-5xl text-center lg:text-6xl sm:text-4xl md:text-6xl  font-bold pt-16 pb-24'>
-                    PostPilot makes it a <span className=' text-titleColor font-medium  font-covered'>  cinch </span> to <br />
+                    MailMagnet makes it a <span className=' text-titleColor font-medium  font-covered'>  cinch </span> to <br />
                     send personalized, profit- <br /> generating postcards.
                 </h1>
                 {card.map((card) => (

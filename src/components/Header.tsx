@@ -15,7 +15,7 @@ const Header = () => {
                     height={32}
                 />
             </div>
-            <div className=' flex items-center justify-center gap-5'>
+            <div className=' hidden lg:flex  items-center justify-center gap-5'>
                 <nav className='flex items-center gap-5'>
                     {menu.map((item) => (
                         <Link href='' className=' font-medium' key={item.id}>

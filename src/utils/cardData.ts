@@ -25,7 +25,7 @@ export const card: cardData[] = [
         title: '<span class="font-covered text-titleColor">Fight back </span> against iOS<br/> updates, jacked-up<br/> CPCs & spam folders',
         description: 'Deliver your message to all of your customers — for less than the cost of a click.',
         author: 'Leah Keith, GM',
-        testimonial: 'PostPilot is our new weapon against sinking email engagement and rising PPC costs. The results and ROI have been outstanding. It’s now one of our core marketing channels to increase acquisition & LTV.    ',
+        testimonial: 'MailMagnet is our new weapon against sinking email engagement and rising PPC costs. The results and ROI have been outstanding. It’s now one of our core marketing channels to increase acquisition & LTV.    ',
         logo: '/images/icones/overlander.png',
         reverse: true,
         image: '/images/overlander-card.jpg'

@@ -38,6 +38,10 @@ body {
   @apply px-14 py-3 bg-secondary text-white text-base border-2 font-normal rounded-xl border-primary shadow-solid-primary;
 }
 
+.btn-primary-white {
+  @apply px-10 py-3 bg-white text-[#2E2F35] text-sm border-2 font-bold rounded-xl border-primary shadow-solid-primary;
+}
+
 .process-steps {
   width: 100%;
   display: flex;
