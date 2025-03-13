@@ -3,7 +3,7 @@ import React from 'react'
 
 const Banner = () => {
     return (
-        <div className=' w-full grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-7 bg-bg-Banner pt-10'>
+        <div className=' w-full grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-7 bg-bg-Banner lg:pb-5 pb-5 pt-10'>
             <div className='lg:col-span-4 md:grid-cols-1 mt-16  px-4 lg:pl-20'>
                 <h1 className='text-5xl lg:text-8xl sm:text-4xl md:text-6xl  font-bold'>
                     Meet your <br />

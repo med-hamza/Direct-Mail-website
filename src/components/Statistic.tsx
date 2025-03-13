@@ -13,7 +13,7 @@ const Statistic = () => {
                     It <span className=' text-titleColor font-medium  font-covered'>  works </span> like crazy.
                 </h1>
                 <div className='grid grid-cols-1 items-center lg:grid-cols-3  mt-12'>
-                    <div className=' mx-auto text-center'>
+                    <div className=' mx-auto text-center pb-8 lg:pb-0'>
                         <p className=' text-6xl font-bold mb-1'>
                             28X
                         </p>
@@ -21,7 +21,7 @@ const Statistic = () => {
                             Higher response rate than email <br /> & digital
                         </p>
                     </div>
-                    <div className=' mx-auto text-center'>
+                    <div className=' mx-auto text-center pb-8 lg:pb-0'>
                         <Image
                             src="/images/mail_picture.png"
                             alt=''

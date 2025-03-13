@@ -10,7 +10,7 @@ const BrandTables = () => {
                 <span className=' text-titleColor font-medium  font-covered'>  make your brand unforgettable </span>
             </h1>
             <div className=' max-w-5xl mx-auto px-3 lg:px-0'>
-                <div className='grid grid-cols-2 lg:grid-cols-3 gap-6'>
+                <div className='grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6'>
                     {brandTable.map((card) => (
                         <div key={card.id} className='p-4 lg:p-8 rounded-xl'
                             style={{ backgroundColor: card.bg }}

@@ -9,7 +9,7 @@ const Brands = () => {
                 Trusted by thousands  <br />
                 of top DTC  <span className=' text-titleColor font-medium  font-covered'>  brands. </span>
             </h1>
-            <div className=' px-16 max-w-7xl mx-auto  mt-12'>
+            <div className=' px-5 lg:px-16 max-w-7xl mx-auto  mt-12'>
                 <div className=' grid  grid-cols-2 lg:grid-cols-4 gap-3 mx-auto'>
                     {brand.map((brand) => (
                         <div key={brand.id} className=' text-center mx-auto mb-4'>

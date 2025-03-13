@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Cards = () => {
     return (
         <div className=' w-full bg-[#FDF3EA]'>
-            <div className=' px-16 max-w-7xl mx-auto pb-16'>
+            <div className=' px-5 lg:px-16 max-w-7xl mx-auto pb-16'>
                 <h1 className='text-5xl text-center lg:text-6xl sm:text-4xl md:text-6xl  font-bold pt-16 pb-24'>
                     MailMagnet makes it a <span className=' text-titleColor font-medium  font-covered'>  cinch </span> to <br />
                     send personalized, profit- <br /> generating postcards.
@@ -47,9 +47,11 @@ const Cards = () => {
                         </div>
                     </div>
                 ))}
-                <button className="btn-primary-section ">
-                    Try it Risk-free
-                </button>
+                <div className=' text-center lg:text-start'>
+                    <button className="btn-primary-section">
+                        Try it Risk-free
+                    </button>
+                </div>
             </div>
         </div>
     )
