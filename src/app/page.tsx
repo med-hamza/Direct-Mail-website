@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
 import BrandTables from "@/components/BrandTables";
 import Cards from "@/components/Cards";
@@ -18,6 +19,7 @@ export default function Home() {
       <LaunchSection />
       <Dtc />
       <RiskFree />
+      <Blog />
     </div>
   );
 }
