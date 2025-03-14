@@ -1,6 +1,6 @@
 import { mailCard } from '@/utils/mailCardData';
 import Image from 'next/image';
-import React, { FC } from 'react'
+import React from 'react'
 
 interface mailtab {
     activeTab: number,
