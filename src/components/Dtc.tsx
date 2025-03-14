@@ -1,4 +1,4 @@
-"use client"; // Ensure this is at the top for client-side rendering
+"use client";
 import React, { FC } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import { listX } from '@/utils/twitData';
