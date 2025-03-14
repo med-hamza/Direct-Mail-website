@@ -26,9 +26,4 @@ export const launch: launchData[] = [
         name: 'Convert',
         description: 'Track campaign performance and turn leads into loyal customers with measurable results.'
     }
-
-
-
-
-
 ]

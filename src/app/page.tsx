@@ -5,6 +5,7 @@ import BrandTables from "@/components/BrandTables";
 import Cards from "@/components/Cards";
 import Dtc from "@/components/Dtc";
 import LaunchSection from "@/components/LaunchSection";
+import MailCards from "@/components/MailCards";
 import RiskFree from "@/components/RiskFree";
 import Statistic from "@/components/Statistic";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <BrandTables />
       <LaunchSection />
       <Dtc />
+      <MailCards />
       <RiskFree />
       <Blog />
     </div>
