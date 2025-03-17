@@ -4,16 +4,23 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { listX } from '@/utils/twitData';
 import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
+import { LettersPullUp } from './animation/LettersPullUp';
+import { SecondLettrePullUp } from './animation/SecondLettrePullUp';
+
 
 const Dtc: FC = () => {
     const [emblaRef] = useEmblaCarousel({ loop: true, align: 'start' }, [Autoplay({ delay: 3000 })]);
     const duplicatedSlides = [...listX, ...listX, ...listX];
     return (
         <div className="w-full pb-24">
-            <h1 className="text-5xl text-center lg:text-6xl sm:text-4xl md:text-6xl font-bold pt-16 pb-24">
-                MailMagnet is 🔥 for{' '}
-                <span className="text-titleColor font-medium font-covered">DTC</span>
+            <h1 className=" text-3xl text-center lg:text-6xl sm:text-4xl md:text-6xl font-bold pt-16 pb-24">
+                <SecondLettrePullUp
+                    text="MailMagnet is for"
+                    highlightedText="DTC"
+                    highlightClassName="text-titleColor font-medium font-covered"
+                />
             </h1>
+
             <div className="embla overflow-hidden" ref={emblaRef}>
                 <div className="flex gap-4">
                     {duplicatedSlides.map((list, index) => (

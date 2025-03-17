@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { SecondLettrePullUp } from './animation/SecondLettrePullUp'
 
 
 
@@ -8,10 +9,17 @@ const Statistic = () => {
     return (
         <div className='w-full bg-bg-Banner'>
             <div className=' max-w-5xl  mx-auto pt-16 pb-16'>
-                <h1 className='text-5xl lg:text-6xl text-center sm:text-4xl md:text-6xl  font-bold'>
-                    Why use direct mail? <br />
-                    It <span className=' text-titleColor font-medium  font-covered'>  works </span> like crazy.
+                <h1 className=' text-3xl lg:text-6xl text-center sm:text-4xl md:text-6xl  font-bold'>
+                    <SecondLettrePullUp
+                        text="Why use direct"
+                        highlightedText='mail?'
+                        highlightClassName="text-titleColor font-medium font-covered"
+                    />
+                    <SecondLettrePullUp
+                        text="It works like crazy."
+                    />
                 </h1>
+
                 <div className='grid grid-cols-1 items-center lg:grid-cols-3  mt-12'>
                     <div className=' mx-auto text-center pb-8 lg:pb-0'>
                         <p className=' text-6xl font-bold mb-1'>

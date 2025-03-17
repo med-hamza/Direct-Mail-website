@@ -1,15 +1,26 @@
 import React from 'react'
 import { card } from '@/utils/cardData'
 import Image from 'next/image'
+import { SecondLettrePullUp } from './animation/SecondLettrePullUp'
 
 const Cards = () => {
     return (
         <div className=' w-full bg-[#FDF3EA]'>
             <div className=' px-5 lg:px-16 max-w-7xl mx-auto pb-16'>
-                <h1 className='text-5xl text-center lg:text-6xl sm:text-4xl md:text-6xl  font-bold pt-16 pb-24'>
-                    MailMagnet makes it a <span className=' text-titleColor font-medium  font-covered'>  cinch </span> to <br />
-                    send personalized, profit- <br /> generating postcards.
+                <h1 className=" text-3xl text-center lg:text-6xl sm:text-4xl md:text-6xl font-bold pt-16 pb-24">
+                    <SecondLettrePullUp
+                        text="MailMagnet makes it a"
+                        highlightedText="cinch"
+                        highlightClassName="text-titleColor font-medium font-covered"
+                    />
+                    <SecondLettrePullUp
+                        text="to send personalized, profit-"
+                    />
+                    <SecondLettrePullUp
+                        text="generating postcards."
+                    />
                 </h1>
+
                 {card.map((card) => (
                     <div
                         key={card.id}
