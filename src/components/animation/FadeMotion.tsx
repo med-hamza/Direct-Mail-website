@@ -1,11 +1,11 @@
 'use client';
-import { motion, useInView } from 'framer-motion';
+import { motion, useInView, Variants } from 'framer-motion';
 import React, { useRef } from 'react';
 
 type ScrollAnimationProps = {
     children: React.ReactNode;
     className?: string;
-    variants: any;
+    variants: Variants;
     once?: boolean;
 };
 
