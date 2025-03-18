@@ -6,7 +6,7 @@ type ScrollAnimationProps = {
     children: React.ReactNode;
     className?: string;
     variants: any;
-    once?: boolean; // Trigger animation once or repeatedly when in view
+    once?: boolean;
 };
 
 export const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
@@ -16,7 +16,7 @@ export const ScrollAnimation: React.FC<ScrollAnimationProps> = ({
     once = true,
 }) => {
     const ref = useRef(null);
-    const isInView = useInView(ref, { once }); // Determines trigger logic
+    const isInView = useInView(ref, { once });
 
     return (
         <motion.div
