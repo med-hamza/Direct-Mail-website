@@ -4,7 +4,6 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { listX } from '@/utils/twitData';
 import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
-import { LettersPullUp } from './animation/LettersPullUp';
 import { SecondLettrePullUp } from './animation/SecondLettrePullUp';
 
 
