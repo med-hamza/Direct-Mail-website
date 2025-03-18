@@ -9,7 +9,7 @@ interface mailtab {
 
 const CardTab = ({ activeTab, setActiveTab }: mailtab) => {
     return (
-        <div className=" w-auto  gap-10 border-b-2 border-[#C7C5D5] items-center">
+        <div className=" w-auto  gap-10 items-center">
             {mailCard.map((card) => (
                 activeTab === card.id && (
                     <div key={card.id}>
@@ -20,7 +20,7 @@ const CardTab = ({ activeTab, setActiveTab }: mailtab) => {
                             <div className=' flex items-center justify-between'>
                                 {card.number.map((item, index) => (
                                     <div key={index}>
-                                        <p className=' leading-5 text-3xl font-bold ' dangerouslySetInnerHTML={{ __html: item.num }} />
+                                        <p className=' leading-5 text-xl lg:text-xl font-bold ' dangerouslySetInnerHTML={{ __html: item.num }} />
                                     </div>
                                 ))}
 
@@ -35,20 +35,17 @@ const CardTab = ({ activeTab, setActiveTab }: mailtab) => {
                     Read Case study
                 </button>
             </div>
-            <div className=' flex justify-start  items-center mt-20 gap-10'>
+            <div className=' flex items-center justify-start mt-20 gap-4 lg:gap-10'>
                 {mailCard.map((card) => (
                     <div
                         key={card.id}
                         onClick={() => setActiveTab(card.id)}
-                        className={`cursor-pointer  transition-colors duration-300 ${activeTab === card.id
+                        className={`cursor-pointer  transition-colors duration-300  ${activeTab === card.id
                             ? 'border-b-2 border-[#009387]'
                             : ''
                             }`}
                     >
-                        <Image src={card.logo}
-                            alt={card.title}
-                            width={70}
-                            height={30} />
+                        <h2 className=' font-bold  uppercase'> {card.name} </h2>
                     </div>
                 ))}
             </div>

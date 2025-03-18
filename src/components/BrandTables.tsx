@@ -18,8 +18,8 @@ const BrandTables = () => {
             <div className=' max-w-5xl mx-auto px-3 lg:px-0'>
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6'>
                     {brandTable.map((card) => (
-                        <div key={card.id} className='p-4 lg:p-8 rounded-xl'
-                            style={{ backgroundColor: card.bg }}
+                        <div key={card.id} className={`p-4 lg:p-8 rounded-xl cursor-box ${card.bg}`}
+
                         >
                             <div className='lg:min-h-48'>
                                 <Image

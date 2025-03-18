@@ -6,9 +6,7 @@ export interface brandData {
     title: string,
     picture: string,
     name: string,
-    width: number,
-    height: number
-
+    link: string
 }
 
 export const brand: brandData[] = [
@@ -16,35 +14,34 @@ export const brand: brandData[] = [
     {
         id: 1,
         title: '/images/rungum-logo.png',
-        picture: '/images/rungum.png',
+        picture: '/images/RunGum.webp',
         name: 'rungum',
-        width: 186,
-        height: 32
+        link: 'https://rungum.com/'
+
 
     },
     {
         id: 2,
         title: '/images/beardbrand-logo.png',
-        picture: '/images/beardbrand.png',
+        picture: '/images/beadbrand.webp',
         name: 'beardbrand',
-        width: 236,
-        height: 33
+        link: 'https://www.beardbrand.com/'
+
     },
     {
         id: 3,
         title: '/images/promix-logo.png',
-        picture: '/images/promix.png',
+        picture: '/images/promix-nutrition.webp',
         name: 'promix',
-        width: 167,
-        height: 32
+        link: 'https://promixnutrition.com/'
+
     },
     {
         id: 4,
         title: '/images/scothcporter-logo.png',
-        picture: '/images/scothcporter.png',
+        picture: '/images/scotch-porter.webp',
         name: 'scothcporter',
-        width: 55,
-        height: 30
+        link: 'https://www.scotchporter.com/'
     }
 
 ] 

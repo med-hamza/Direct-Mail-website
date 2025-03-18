@@ -3,6 +3,8 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { Covered_By_Your_Grace } from "next/font/google";
 import Header from "@/components/Header";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const covered = Covered_By_Your_Grace({
