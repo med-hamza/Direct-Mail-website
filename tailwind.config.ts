@@ -12,7 +12,7 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: '#2E2F35',
-        secondary: '#FF6D2C',
+        secondary: '#4ED8F3',
         titleColor: '#31A69C',
         text: '#58595D'
       },

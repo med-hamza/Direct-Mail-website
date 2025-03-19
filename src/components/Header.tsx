@@ -9,9 +9,9 @@ const Header = () => {
         <div className='flex justify-between'>
             <div>
                 <Image
-                    src="/images/mail_magnet_logo.png"
+                    src="/images/mail_magnet_logo.svg"
                     alt='MailMagnet'
-                    width={160}
+                    width={222}
                     height={32}
                 />
             </div>
