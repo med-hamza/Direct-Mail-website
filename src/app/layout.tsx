@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { Covered_By_Your_Grace } from "next/font/google";
 import Header from "@/components/Header";
+import { Analytics } from '@vercel/analytics/react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Footer from "@/components/Footer";
 
@@ -32,6 +33,7 @@ export default function RootLayout({
           <Header />
         </div>
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
