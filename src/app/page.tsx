@@ -8,7 +8,7 @@ import LaunchSection from "@/components/LaunchSection";
 import MailCards from "@/components/MailCards";
 import RiskFree from "@/components/RiskFree";
 import Statistic from "@/components/Statistic";
-import Testimonials from "@/components/Testimonials";
+
 
 export default function Home() {
   return (
