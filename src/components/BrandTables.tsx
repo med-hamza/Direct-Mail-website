@@ -6,7 +6,7 @@ import { LettersPullUp } from './animation/LettersPullUp'
 const BrandTables = () => {
     return (
         <div className='mx-auto pt-16 pb-24  text-center'>
-            <h1 className=' pb-24'>
+            <h1 className=' pb-8 lg:pb-24'>
                 <LettersPullUp
                     text="Everything your brand needs to"
                 />

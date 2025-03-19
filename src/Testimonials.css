@@ -14,3 +14,27 @@
     display: block;
 
 }
+
+/* Change the bullet color */
+.swiper-pagination-bullet {
+    background-color: #5D8AA8;
+    /* Your desired color for inactive bullets */
+    opacity: 0.5;
+    /* Adjust opacity if needed */
+    transition: background-color 0.3s;
+}
+
+/* Change the active bullet color */
+.swiper-pagination-bullet-active {
+    background-color: #B2E5D9;
+    /* Your desired color for the active bullet */
+    opacity: 1;
+    /* Ensure active bullet stands out */
+}
+
+/* Add other styles for alignment or size customization */
+.swiper-pagination {
+    bottom: 20px;
+    /* Adjust the position */
+    text-align: center;
+}

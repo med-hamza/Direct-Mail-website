@@ -7,7 +7,7 @@ import { SecondLettrePullUp } from './animation/SecondLettrePullUp'
 const Blog = () => {
     return (
         <div className=' px-5 lg:px-16 max-w-7xl mx-auto pt-24 pb-24'>
-            <h1 className='text-2xl lg:text-6xl sm:text-4xl md:text-6xl  text-center font-bold lg:block pb-24'>
+            <h1 className='text-2xl lg:text-6xl sm:text-4xl md:text-6xl  text-center font-bold lg:block pb-4 lg:pb-24'>
                 <LettersPullUp
                     text="Latest trends &"
                 />

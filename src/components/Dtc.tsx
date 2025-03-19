@@ -12,7 +12,7 @@ const Dtc: FC = () => {
     const duplicatedSlides = [...listX, ...listX, ...listX];
     return (
         <div className="w-full pb-24">
-            <h1 className=" text-3xl text-center lg:text-6xl sm:text-4xl md:text-6xl font-bold pt-16 pb-24">
+            <h1 className=" text-3xl text-center lg:text-6xl sm:text-4xl md:text-6xl font-bold pt-16 pb-6 lg:pb-24">
                 <SecondLettrePullUp
                     text="MailMagnet is for"
                     highlightedText="DTC"

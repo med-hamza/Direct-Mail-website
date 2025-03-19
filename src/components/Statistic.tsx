@@ -50,7 +50,7 @@ const Statistic = () => {
                     />
                 </h1>
 
-                <div className='grid grid-cols-1 items-center lg:grid-cols-3  mt-12'> {/* fade in */}
+                <div className='grid grid-cols-1 items-center lg:grid-cols-3  mt-12'>
                     <ScrollAnimation variants={fadeOutVariants} className="mx-auto text-center pb-8 lg:pb-0">
                         <p className=' text-6xl font-bold mb-1'>
                             28X
@@ -59,7 +59,7 @@ const Statistic = () => {
                             Higher response rate than email <br /> & digital
                         </p>
                     </ScrollAnimation>
-                    <ScrollAnimation variants={slideFade} className=' mx-auto text-center pb-8 lg:pb-0'> {/* fade up */}
+                    <ScrollAnimation variants={slideFade} className=' mx-auto text-center pb-8 lg:pb-0'>
                         <Image
                             src="/images/mail_picture.png"
                             alt=''

@@ -12,7 +12,6 @@ const CardTab = ({ activeTab, setActiveTab }: mailtab) => {
             {mailCard.map((card) => (
                 activeTab === card.id && (
                     <div key={card.id}>
-
                         <div>
                             <h1 className='text-5xl lg:text-7xl text-primary mb-10 sm:text-4xl md:text-6xl  font-bold' dangerouslySetInnerHTML={{ __html: card.title }} />
                             <p className=' text-text text-xl font-medium  mb-10'> {card.description} </p>

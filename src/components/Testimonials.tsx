@@ -28,7 +28,7 @@ const Testimonials: React.FC = () => {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={false}
+        pagination={true}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
