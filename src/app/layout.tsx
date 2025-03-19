@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import { Covered_By_Your_Grace } from "next/font/google";
 import Header from "@/components/Header";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Footer from "@/components/Footer";
 
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -31,6 +32,7 @@ export default function RootLayout({
           <Header />
         </div>
         {children}
+        <Footer />
       </body>
     </html>
   );
