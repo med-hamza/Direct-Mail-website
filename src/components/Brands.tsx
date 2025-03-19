@@ -19,7 +19,7 @@ const Brands = () => {
             </h1>
 
             <div className='  mx-auto  mt-12'>
-                <div className=' grid  grid-cols-2 lg:grid-cols-4 gap-3 mx-auto'>
+                <div className=' grid  grid-cols-1 lg:grid-cols-4 gap-3 mx-auto'>
                     {brand.map((brand) => (
                         <div key={brand.id} className="col-12 col-lg-4">
                             <div className=' card box-shadow mx-auto my-5 w-72'>
