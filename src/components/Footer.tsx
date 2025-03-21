@@ -6,6 +6,11 @@ const Footer = () => {
             <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                    <div className=" col-span-1">
+                        <h2 className=" text-lg">
+                            Designed in <span className=" font-covered font-medium"> Figma </span>, this project was built using <span className=" font-covered font-medium"> Next.js  </span>  and <span className=" font-covered font-medium"> Tailwind CSS </span>  and deployed on Vercel
+                        </h2>
+                    </div>
                     <div className="col-span-2">
                         <h3 className="text-lg font-bold text-primary uppercase mb-4">COMPANY</h3>
                         <div className="grid grid-cols-2 gap-4">
